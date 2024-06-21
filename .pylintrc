@@ -1,0 +1,34 @@
+[MASTER]
+
+# Specify the maximum allowed line length.
+max-line-length = 120
+
+# Enable the generation of messages with a symbolic name instead of a number.
+msg-template = {path}:{line}:{column}: {msg_id} ({symbol}) {msg}
+
+# Enable all messages (optional, but can be useful to initially see all issues).
+disable =
+
+[MESSAGES CONTROL]
+
+# Enable or disable certain types of messages.
+# Uncomment the following line to disable messages you don't want to see.
+# disable = C0103, C0114, C0115, C0116, W1203
+
+[BASIC]
+
+# List of builtins function names that should not be used.
+bad-functions =
+
+# Allow camelCase names.
+allow-in-method-rname = yes
+
+# List of additional names supposed to be defined in builtins. Remember that
+# you should avoid to define new builtins when possible.
+additional-builtins =,
+
+[FORMAT]
+
+# Deprecated options to remove in the next version of pylint.
+# deprecated-modules =
+
