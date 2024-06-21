@@ -1,0 +1,3 @@
+python -m venv venv
+source venv/bin/activate  # Activate virtual environment on Unix/Linux
+echo "pylint>=2.12.2" > requirements.txt
